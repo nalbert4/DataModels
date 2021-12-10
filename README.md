@@ -7,13 +7,15 @@ We used the DE-SynPUFs for our analysis because it contains anonymous data of th
 R programming as it has packages for running data models. 
 Instructions for Running both data models in R:
 Multiple Linear Regression code in R:
-1.	Download the zip file and unzip the file in the same folder.
-2.	Open the “Multiple_Linear_Regression_Replicability_Assesstment.Rproj” file to edit the setwd() command.
-3.	There are two setwd() commands, please alter the commands to your working directory where all the files for the project is installed.
-4.	To Run the file, click on the first line in the R code and select Run Current Chunk to run the entire R code for the model.
-5.	Output will display 4 graphs: Residual vs Fitted, Normal Q-Q, Scale Location, Residuals vs Leverage.
-6.	It will also display actual vs predicted predictor values to compare the accuracy of the model.
+1.	Open the “Multiple_Linear_Regression_Replicability_Assesstment.Rproj” file in R to edit the setwd() command.
+2.	There are two setwd() commands, please alter the commands to your working directory where all the files for the project is installed.
+3.	To Run the file, click on the first line in the R code and select Run Current Chunk to run the entire R code for the model.
+4.	Output will display 4 graphs: Residual vs Fitted, Normal Q-Q, Scale Location, Residuals vs Leverage.
+5.	It will also display actual vs predicted predictor values to compare the accuracy of the model.
 Three Models (Ridge, Lasso, and Elastic-Net) code in R:
+1.  Open the “Ridge_Lasso_ElasticNet_Mess.Rproj” file in R to edit the setwd() command.
+2.	There are two setwd() commands, please alter the commands to your working directory where all the files for the project is installed.
+3.	To Run the file, click on the first line in the R code and select Run Current Chunk to run the entire R code for the model.
 
 It is important to note, that this analysis was undertaken using synthetic Medicare data.   If the models created here could run with actual Medicare data, then the output would be more useful to analyze.  The synthetic Medicare data we used provided a very useful means for learning how to utilize data to predict Medicare costs. 
 
