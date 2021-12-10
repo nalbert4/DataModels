@@ -6,12 +6,14 @@ Our project created two main data models to predict claims costs for Type 2 Diab
 We used the DE-SynPUFs for our analysis because it contains anonymous data of the beneficiaries to protect their privacy. It is also a common dataset that is used for creating data models without using actual Medicare data. The Data Entrepreneur’s Synthetic Public Use File data was created from actual Medicare and Medicaid beneficiary data.  The synthetic data variables were then masked by mixing beneficiary information from similar but different ‘donor’ beneficiaries, changing variable values within claims where the data could disclose identifiable information about the beneficiary.  File underwent a Synthetic File Creation Process and various methods were used by CMS to generate the synthetic data, including hot decking-based procedures, variable reduction/suppression/substitution/imputation, and data perturbation to mask timelines and intervals between events. The data files for the models are .csv files that were already pre-processed and ready to be used for the data model.
 R programming as it has packages for running data models. 
 Instructions for Running both data models in R:
-Multiple Linear Regression code in R:
+
+Multiple Linear Regression Model code in R:
 1.	Open the “Multiple_Linear_Regression.Rmd” file in R to edit the setwd() command.
 2.	There are two setwd() commands, please alter the commands to your working directory where all the files for the project is installed.
 3.	To Run the file, click on the first line in the R code and select Run Current Chunk to run the entire R code for the model.
 4.	Output will display 4 graphs: Residual vs Fitted, Normal Q-Q, Scale Location, Residuals vs Leverage.
 5.	It will also display actual vs predicted predictor values to compare the accuracy of the model.
+
 Three Models (Ridge, Lasso, and Elastic-Net) code in R:
 1.  Open the “Ridge_Lasso_ElasticNet_Mess.Rmd” file in R to edit the setwd() command.
 2.	There are two setwd() commands, please alter the commands to your working directory where all the files for the project is installed.
