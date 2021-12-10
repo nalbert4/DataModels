@@ -8,7 +8,7 @@ R programming as it has packages for running data models.
 Instructions for Running both data models in R:
 
 Multiple Linear Regression Model code in R:
-1.	Download these files: 20018_benef_model.csv, 2008_benef_model_orginal.csv and Multiple_Linear_Regression.rmd and save in one folder.
+1.	Download these files: 2008_benef_model.csv, 2008_benef_model_orginal.csv and Multiple_Linear_Regression.rmd and save in one folder.
 2.	Open the “Multiple_Linear_Regression.Rmd” file in R to edit the setwd() command.
 3.	There are two setwd() commands, please alter the commands to your working directory where all the files for the project are installed.
 4.	To Run the file, click on the first line in the R code and select Run Current Chunk to run the entire R code for the model.
