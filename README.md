@@ -8,11 +8,12 @@ R programming as it has packages for running data models.
 Instructions for Running both data models in R:
 
 Multiple Linear Regression Model code in R:
-1.	Open the “Multiple_Linear_Regression.Rmd” file in R to edit the setwd() command.
-2.	There are two setwd() commands, please alter the commands to your working directory where all the files for the project is installed.
-3.	To Run the file, click on the first line in the R code and select Run Current Chunk to run the entire R code for the model.
-4.	Output will display 4 graphs: Residual vs Fitted, Normal Q-Q, Scale Location, Residuals vs Leverage.
-5.	It will also display actual vs predicted predictor values to compare the accuracy of the model.
+1.	Download these files: 20018_benef_model.csv, 2008_benef_model_orginal.csv and Multiple_Linear_Regression.rmd and save in one folder.
+2.	Open the “Multiple_Linear_Regression.Rmd” file in R to edit the setwd() command.
+3.	There are two setwd() commands, please alter the commands to your working directory where all the files for the project are installed.
+4.	To Run the file, click on the first line in the R code and select Run Current Chunk to run the entire R code for the model.
+5.	Output will display 4 graphs: Residual vs Fitted, Normal Q-Q, Scale Location, Residuals vs Leverage.
+6.	It will also display actual vs predicted predictor values to compare the accuracy of the model.
 
 Three Models (Ridge, Lasso, and Elastic-Net) code in R:
 1.  Open the “Ridge_Lasso_ElasticNet_Mess.Rmd” file in R to edit the setwd() command.
