@@ -7,7 +7,7 @@ We used the DE-SynPUFs for our analysis because it contains anonymous data of th
 R programming as it has packages for running data models. 
 Instructions for Running both data models in R:
 Multiple Linear Regression code in R:
-1.	Open the “Multiple_Linear_Regression_Replicability_Assesstment.Rmd” file in R to edit the setwd() command.
+1.	Open the “Multiple_Linear_Regression.Rmd” file in R to edit the setwd() command.
 2.	There are two setwd() commands, please alter the commands to your working directory where all the files for the project is installed.
 3.	To Run the file, click on the first line in the R code and select Run Current Chunk to run the entire R code for the model.
 4.	Output will display 4 graphs: Residual vs Fitted, Normal Q-Q, Scale Location, Residuals vs Leverage.
