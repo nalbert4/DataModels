@@ -13,7 +13,7 @@ Multiple Linear Regression code in R:
 4.	Output will display 4 graphs: Residual vs Fitted, Normal Q-Q, Scale Location, Residuals vs Leverage.
 5.	It will also display actual vs predicted predictor values to compare the accuracy of the model.
 Three Models (Ridge, Lasso, and Elastic-Net) code in R:
-1.  Open the “Ridge_Lasso_ElasticNet_Mess.Rproj” file in R to edit the setwd() command.
+1.  Open the “Ridge_Lasso_ElasticNet_Mess.Rmd” file in R to edit the setwd() command.
 2.	There are two setwd() commands, please alter the commands to your working directory where all the files for the project is installed.
 3.	To Run the file, click on the first line in the R code and select Run Current Chunk to run the entire R code for the model.
 
